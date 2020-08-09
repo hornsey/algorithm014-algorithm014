@@ -16,11 +16,12 @@ class Q283Solution {
 		int noZeros = 0;
 		for (int i = 0; i < nums.length; i++) {
 			if (nums[i] != 0) {
-				nums[noZeros++] = nums[i];
-				nums[i] = 0;
+				if (i != noZeros) {
+					nums[noZeros] = nums[i];
+					nums[i] = 0;
+				}
+				noZeros++;
 			}
 		}
-
 	}
-
 }

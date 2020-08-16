@@ -19,3 +19,4 @@ public class Q21Solution {
 		}
 	}
 }
+

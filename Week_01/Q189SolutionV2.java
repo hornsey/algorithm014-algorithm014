@@ -3,7 +3,7 @@
  * @date 2020/8/16
  * @version 2
  */
-public class Q189Solution {
+public class Q189SolutionV2 {
 	public void rotate(int[] nums, int k) {
 		int n = nums.length;
 		if (n < k) {
